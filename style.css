@@ -1,0 +1,23 @@
+header nav {
+  color: hotpink;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+}
+header nav ul li {
+  font-weight: bold;
+  color: teal;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  color: hotpink;
+  font-family: Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

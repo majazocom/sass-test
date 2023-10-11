@@ -1,0 +1,30 @@
+$myFont: Helvetica, sans-serif;
+$myColor: hotpink;
+@mixin coolstuff {
+    font-weight: bold;
+    color: teal;
+}
+
+header {
+    nav {
+        color: $myColor;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            list-style-type: none;
+
+            li {
+                @include coolstuff;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+p {
+    color: $myColor;
+    font-family: $myFont;
+}
